@@ -6,6 +6,7 @@ A simple and fun Typing Speed Test Game built with HTML, CSS, and JavaScript.
 - [Overview](#overview)
   - [Usage](#Usage)
   - [Links](#links)
+  - [Screenshot](#Screenshot)
 - [My process](#my-process)
   - [Features](#Features)
   - [What I learned](#what-i-learned)
@@ -37,6 +38,10 @@ Otherwise, all links will open in the same tab.
 - Solution URL: [here](https://github.com/olahasan/Typing-Speed-Test-Game)
 
 - Live Site URL: [here](https://olahasan.github.io/Typing-Speed-Test-Game/)
+
+ ## Screenshot
+ 
+![Screenshot](./images/screenshot.png)
 
 ## my-process
 
