@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- next meta, tells the browser to use the most modern, standards-compliant rendering mode available -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Speed Test Game</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="game">
+      <div class="name">Typing Speed Test Game</div>
+      <div class="container">
+        <div class="message">
+          You Are Playing On
+          <span class="lvl"></span> Level & You Have
+          <span class="seconds"></span> Seconds To Type The Word
+
+          <div class="selectLevel">
+            <label for="levelSelect">you can change it from here:</label>
+            <select id="levelSelect">
+              <option value="Easy">Easy</option>
+              <option value="Normal" selected>Normal</option>
+              <option value="Hard">Hard</option>
+              <!-- Add more options as needed -->
+            </select>
+          </div>
+        </div>
+        <div class="start">Start Playing</div>
+        <div class="the-word"></div>
+        <input type="text" class="input" />
+        <div class="upcoming-words"></div>
+        <div class="control">
+          <div class="time">Time Left: <span>3</span> Seconds</div>
+          <div class="score">
+            Score: <span class="got">0</span> From <span class="total"></span>
+          </div>
+        </div>
+        <div class="finish">
+          <video
+            id="myVideo"
+            class="video-background"
+            muted
+            loop
+            hidden
+            poster="images/videoCover.png"
+          >
+            <source
+              src="video/stationary shot of gold and pink confetti falling against grey background_preview.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          <!-- <div class="congrats">
+            <span class="good">congratulations</span>
+            <p class="playAgain">Do you want to play again</p>
+            <div class="btns">
+              <span>YES</span>
+              <span>NO</span>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <audio class="myAudioCorrectAnswer" controls hidden>
+      <source src="audio/mixkit-achievement-bell-600.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio class="myAudiocongratulations" controls hidden>
+      <source
+        src="audio/mixkit-game-level-completed-2059_1.mp3"
+        type="audio/mp3"
+      />
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio class="myAudioGameOver" controls hidden>
+      <source src="audio/mixkit-falling-game-over-1942.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+    <script src="main.js"></script>
+  </body>
+</html>
