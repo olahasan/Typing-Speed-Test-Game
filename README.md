@@ -15,7 +15,7 @@ A simple and fun Typing Speed Test Game built with HTML, CSS, and JavaScript.
 
 
 ## overview
-This project is a Typing Speed Test Game where users can test their typing speed by typing words displayed on the screen within a limited time. The game offers different difficulty levels and provides feedback on the user's performance.
+This project is a Typing Speed Test Game where users can test their typing speed by typing words displayed on the screen within a limited time. The game offers different difficulty levels.
 
 ## Usage
 1. Open `index.html` in your web browser.
