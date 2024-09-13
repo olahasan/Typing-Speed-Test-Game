@@ -20,7 +20,7 @@ This project is a Typing Speed Test Game where users can test their typing speed
 
 ## Usage
 1. Open `index.html` in your web browser.
-2. Select the difficulty level from the dropdown menu.
+2. Select the difficulty level from the dropdown menu **Average play time varies depending on difficulty level.**.
 3. Click the "Start Playing" button to begin the game.
 4. Type the words displayed on the screen as quickly and accurately as possible.
 5. The game will provide feedback on your performance and offer an option to play again.
@@ -48,6 +48,7 @@ Otherwise, all links will open in the same tab.
 ## Features
 - Three difficulty levels: Easy, Normal, and Hard
 - Real-time score tracking
+- Average play time varies depending on difficulty level.
 - Audio feedback for correct and incorrect answers
 - Visual feedback with a background video for winning
 - Speech synthesis for game messages
